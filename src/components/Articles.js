@@ -9,9 +9,8 @@ const LayoutGrid = styled.div`
   grid-auto-rows: minmax(390px, auto);
   grid-gap: 1em;
   margin: 0 auto;
-  background: pink;
-  max-width: 1220px;
   width: 80%;
+  max-width: 1220px;
 
   @media (max-width: 1000px) {
     width: 90%;
@@ -22,7 +21,6 @@ const LayoutGrid = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: blue !important;
   }
 `;
 
@@ -46,32 +44,32 @@ const ArticlePreviewContent = styled.div`
   text-align: left;
 `;
 
-// These are for readability only, for now anyway
 const ArticlePreviewTitle = styled.h2`
   font-weight: 600;
 `;
+
 const ArticlePreviewDate = styled.h5`
-  color: #888888;
-  text-align: right;
   padding: 0.5rem;
+  text-align: right;
+  color: #888888;
 `;
+
 const ArticlePreviewDescription = styled.p`
 @media (max-width: 884px) {
   display: none;
 }
 `;
 
-
 const ReadMore = styled.div`
-  border-radius: 4px;
-  background: #000000;
-  padding: 0.5rem;
-  width: 130px;
-  color: #ffffff;
   position: relative;
   margin: 0 0 40px 40px;
+  border-radius: 4px;
+  background: #000000;
   cursor: pointer;
+  padding: 0.5rem;
+  width: 130px;
   text-align: center;
+  color: #ffffff;
 `;
 
 const Articles = (props) => {
