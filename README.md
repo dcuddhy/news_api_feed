@@ -23,9 +23,9 @@ If I had more time, I would:
 1.  Focus more on componentization - elements should be more thoughtfully broken up into components.
 1.  Add an image fallback to display when article image value is null.
 1.  There's a cruft `data.json` file still in the repo that I used to render elements while styling so that I wouldn't hit an API rate limit.  That was helpful, but it's sloppy to leave it in there.
-1.  Test, test, test.  I would probably install Cypress.
 1.  My responsive solution is good, but I see opportunities to make it better.
 1.  Pull in a different date library as moment is deprecated.
+1.  Test, test, test.  I would probably install Cypress.
 
 
 AC's
