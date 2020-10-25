@@ -1,13 +1,14 @@
 import React, {useEffect, useState} from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Articles from './components/Articles';
+import Header from './components/Header';
 import data from './data/data.json';
 
 function App() {
   const [fetchedData, setFetchedData] = useState(data);
 
   const apiKey = process.env.REACT_APP_API_KEY || '';
-  const apiEndpoint = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`;
+  // const apiEndpoint = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`;
   
   // TODO this works, but lets use sample data until we're cleaning up to make sure we don't hit an API limit
   // useEffect(() => {
@@ -23,20 +24,8 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Articles data={fetchedData.articles} />
     </div>
   );
 }
