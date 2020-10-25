@@ -13,29 +13,39 @@ const AppContainer = styled.div`
 // Search for articles (in language 'en') by a search string (the homepage of the app is simply a search bar)
 // Search results are sortable by either of the following criterias - date, relevance, popularity or none
 
-function App() {
-  const [fetchedData, setFetchedData] = useState(data);
+const apiKey = process.env.REACT_APP_API_KEY || '';
 
-  const apiKey = process.env.REACT_APP_API_KEY || '';
-  // const apiEndpoint = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`;
-  
-  // TODO this works, but lets use sample data until we're cleaning up to make sure we don't hit an API limit
+function App() {
+  const [query, setQuery] = useState('');
+  const [fetchedData, setFetchedData] = useState(data.articles);
+  // const [fetchedData, setFetchedData] = useState([]);
+  const apiEndpoint = `https://newsapi.org/v2/top-headlines?country=us&q=${query}&apiKey=${apiKey}`;
+
+
+  const dataFetch = () => {
+    fetch(apiEndpoint)
+    .then(response => response.json())
+    .then(data => setFetchedData(data.articles))
+    .catch((error) => {
+      console.error('FETCH ERROR: ', error);
+    });
+  }
+
+  // Get initial Data
   // useEffect(() => {
-  // fetch(apiEndpoint)
-  //   .then(response => response.json())
-  //   .then(data => setFetchedData(data.articles))
-  //   .catch((error) => {
-  //     console.error('FETCH ERROR: ', error);
-  //   });
+  //   dataFetch();
   // }, []);
 
-  console.log('fetchedData: ', fetchedData);
+  // // Update data upon query
+  // useEffect(() => {
+  //   dataFetch();
+  // }, [query]);
 
   return (
     <>
-    <Header />
+    <Header query={setQuery} />
     <AppContainer className="app-container">
-      <Articles data={fetchedData.articles} />
+      <Articles data={fetchedData} />
     </AppContainer>
     </>
   );

@@ -76,7 +76,6 @@ const ReadMore = styled.div`
 
 const Articles = (props) => {
   const articleData = props.data;
-  console.log('articleData: ', articleData);
 
   return (
     <LayoutGrid className='layout-grid'>
