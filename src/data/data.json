@@ -1,0 +1,287 @@
+{
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "CNET"
+      },
+      "author": "James Martin",
+      "title": "iPhone 12 Pro cameras show off around Lake Tahoe - CNET",
+      "description": "Sunsets, sunrises, wide vistas and aquamarine waters give ample evidence of another leap forward in mobile photography.",
+      "url": "https://www.cnet.com/news/iphone-12-pro-cameras-show-off-around-lake-tahoe/",
+      "urlToImage": "https://cnet3.cbsistatic.com/img/b_JLU9Mj0ZNzV8qR6mhB6A557mo=/1200x630/2020/10/23/bc325189-d635-41ab-ba21-72a153c01237/iphone-12-pro-ultra-east-shore-159pm-0181.jpg",
+      "publishedAt": "2020-10-25T12:00:11Z",
+      "content": "Shooting with the iPhone 12 Pro above Emerald Bay in Lake Tahoe, California.\r\nJames Martin/CNET\r\nFor photographers, almost every new iPhone has a little something special, and one of Apple's newest d… [+14680 chars]",
+      "relevanceScore": 5
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Devan Cole, CNN",
+      "title": "White House chief of staff: 'We are not going to control the pandemic' - CNN",
+      "description": "White House chief of staff Mark Meadows said Sunday that the US is \"not going to control\" the coronavirus pandemic, as cases surge across the country and nearly 225,000 Americans have died from the virus.",
+      "url": "https://www.cnn.com/2020/10/25/politics/mark-meadows-controlling-coronavirus-pandemic-cnntv/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/201012201946-meadows-capitol-hill-chief-of-staff-refused-mask-super-tease.jpg",
+      "publishedAt": "2020-10-25T14:40:40Z",
+      "content": "Washington (CNN)White House chief of staff Mark Meadows said Sunday that the US is \"not going to control\" the coronavirus pandemic, as cases surge across the country and nearly 225,000 Americans have… [+3221 chars]",
+      "relevanceScore": 0
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BBC News"
+      },
+      "author": "https://www.facebook.com/bbcnews",
+      "title": "Coronavirus: Spain imposes national night-time curfew to curb infections - BBC News",
+      "description": "Bars and restaurants will also have to close early as the number of infections continues to rise.",
+      "url": "https://www.bbc.com/news/world-europe-54682222",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/13BBA/production/_115062808_mediaitem115062806.jpg",
+      "publishedAt": "2020-10-25T14:28:00Z",
+      "content": "image captionMadrid is one of the worst-hit regions in Spain and been subject to some of the toughest restrictions\r\nSpain has declared a national state of emergency and imposed a night-time curfew in… [+2309 chars]",
+      "relevanceScore": 0
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Kaitlan Collins, Jeremy Diamond, Jim Acosta, Daniella Diaz and Betsy Klein, CNN",
+      "title": "At least 5 people in Pence's orbit, including chief of staff Marc Short, are positive for coronavirus - CNN",
+      "description": "At least five people in Vice President Mike Pence's orbit have tested positive for coronavirus in recent days, including chief of staff Marc Short and outside adviser Marty Obst, a source familiar with the situation told CNN.",
+      "url": "https://www.cnn.com/2020/10/24/politics/mac-short-coronavirus-positive-test/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190327184249-marc-short-tsr-03272019-super-tease.jpg",
+      "publishedAt": "2020-10-25T14:26:00Z",
+      "content": "(CNN)At least five people in Vice President Mike Pence's orbit have tested positive for coronavirus in recent days, including chief of staff Marc Short and outside adviser Marty Obst, a source famili… [+5642 chars]",
+      "relevanceScore": 0
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "New York Times"
+      },
+      "author": "Jason Horowitz",
+      "title": "Pope Francis Appoints First African-American Cardinal - The New York Times",
+      "description": "Wilton Gregory, the archbishop of Washington, who led the Roman Catholic Church’s response to the sexual abuse crisis in the early 2000s, was among 13 new cardinals named on Sunday.",
+      "url": "https://www.nytimes.com/2020/10/25/us/pope-francis-cardinal-gregory.html",
+      "urlToImage": "https://static01.nyt.com/images/2020/10/25/world/25cardinal/25cardinal-facebookJumbo.jpg",
+      "publishedAt": "2020-10-25T13:55:00Z",
+      "content": "His list also included Celestino Aos, the archbishop of Santiago, Chile, a boost for the Catholic church in a country where numerous bishops resigned in 2018 after a sexual abuse scandal.\r\nOther new … [+1007 chars]",
+      "relevanceScore": 0
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Ben Morse, CNN",
+      "title": "Tributes pour in for 'greatest champion in UFC history' Khabib Nurmagomedov after shock of his retirement - CNN International",
+      "description": "Following his stunning retirement after his most recent title defense, tributes have poured in to praise the undefeated Ultimate Fighting Championship (UFC) career of Khabib Nurmagomedov.",
+      "url": "https://edition.cnn.com/2020/10/25/sport/nurmagomedov-retirement-reaction-ufc-spt-intl/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/201025071134-01-khabib-nurmagomedov-file-super-tease.jpg",
+      "publishedAt": "2020-10-25T13:39:40Z",
+      "content": "(CNN)Following his stunning retirement after his most recent title defense, tributes have poured in to praise the undefeated Ultimate Fighting Championship (UFC) career of Khabib Nurmagomedov.\r\nAfter… [+2189 chars]",
+      "relevanceScore": 0
+    },
+    {
+      "source": {
+        "id": "fox-news",
+        "name": "Fox News"
+      },
+      "author": "Tyler McCarthy",
+      "title": "Offset briefly detained by police near gathering of Trump supporters, passenger arrested and charged - Fox News",
+      "description": "Cardi B's husband, Offset, was briefly detained by police near a pro-Trump rally in Los Angeles.",
+      "url": "https://www.foxnews.com/entertainment/offset-detained-police-trump-supporters-passenger-arrested",
+      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2020/10/offset-getty.jpg",
+      "publishedAt": "2020-10-25T13:17:58Z",
+      "content": "Rapper and husband of Cardi B, Offset, was briefly detained by police officers near a pro-Trump rally in Los Angeles as he live-streamed the whole thing on Instagram. \r\nThe Beverly Hills Police Depar… [+3191 chars]",
+      "relevanceScore": 0
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "ESPN"
+      },
+      "author": "Jeff Passan",
+      "title": "World Series 2020 -- Tampa Bay Rays revel, Los Angeles Dodgers despair as Game 4 delivers baseball bliss - ESPN",
+      "description": "Unlikely heroes? Improbable outcomes? Saturday had it all, including a taste of baseball straight from a sandlot daydream.",
+      "url": "https://www.espn.com/mlb/story/_/id/30186212/world-series-2020-rays-revel-dodgers-despair-game-4-delivers-baseball-bliss",
+      "urlToImage": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F1025%2Fr765733_1296x729_16%2D9.jpg",
+      "publishedAt": "2020-10-25T13:08:00Z",
+      "content": "ARLINGTON, Texas -- It happened just past midnight on the East Coast, 34 years to the day the last time a World Series game concluded like this. There are so many possible outcomes for the final play… [+11780 chars]",
+      "relevanceScore": 0
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": null,
+      "title": "Sunday Morning Tropical Update: Zeta forms, heading towards Gulf Coast - WWLTV",
+      "description": null,
+      "url": "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9V2Nid0JuRElVQ2PSAQA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2020-10-25T13:05:14Z",
+      "content": null,
+      "relevanceScore": 0
+    },
+    {
+      "source": {
+        "id": "politico",
+        "name": "Politico"
+      },
+      "author": "James Arkin",
+      "title": "GOP Senate majority besieged on multiple fronts - POLITICO",
+      "description": "Entering the final week before the election, Democrats are on offense in a broad array of states.",
+      "url": "https://www.politico.com/news/2020/10/25/senate-election-republican-majority-432213",
+      "urlToImage": "https://static.politico.com/0a/8a/d7d80966483a8e34d9d5bbef9ccf/20201025-thomtillis-gty-773.jpg",
+      "publishedAt": "2020-10-25T12:55:00Z",
+      "content": "Republicans have poured money into Alaska, Georgia, Kansas and South Carolina in October to shore up their red wall, while races in more expected battlegrounds like Iowa, North Carolina, Maine and Ar… [+7941 chars]",
+      "relevanceScore": 0
+    },
+    {
+      "source": {
+        "id": "fox-news",
+        "name": "Fox News"
+      },
+      "author": "Cortney Moore",
+      "title": "Kanye West tells Joe Rogan that he was inspired by God to be the \"leader of the free world\" - Fox News",
+      "description": "Kanye West opened up about his life and presidential plans during an appearance on the “Joe Rogan Experience” podcast.",
+      "url": "https://www.foxnews.com/entertainment/kanye-west-inspired-god-leader-free-world-2015",
+      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2020/10/Kanye-West.jpg",
+      "publishedAt": "2020-10-25T12:25:37Z",
+      "content": "Kanye West opened up about his life and presidential plans during an appearance on the “Joe Rogan Experience” podcast.\r\nIn the nearly three-hour episode, which was uploaded on to Spotify on Saturday,… [+2164 chars]",
+      "relevanceScore": 0
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "NPR"
+      },
+      "author": "",
+      "title": "Watch Adele's 'SNL' Monologue And HER's New Songs - NPR",
+      "description": "Adele sang a bit in one sketch, but left most of the music to H.E.R., who performed a new song called \"Hold On.\"",
+      "url": "https://www.npr.org/2020/10/25/927541732/adeles-album-s-not-finished-so-h-e-r-is-the-one-busting-out-new-songs-on-snl",
+      "urlToImage": "https://media.npr.org/assets/img/2020/10/25/gettyimages-1229269763_wide-73a168781933a50806da3c2b8e0ca407ba4b19e2.jpg?s=1400",
+      "publishedAt": "2020-10-25T12:07:04Z",
+      "content": "It's been nearly five years since Adele released her blockbuster, Grammy-festooned album 25 so you'd be forgiven for wondering whether fans would be treated to new material during the singer's return… [+1393 chars]",
+      "relevanceScore": 0
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Rajesh Roy, William Mauldin",
+      "title": "U.S., India Expected to Sign Military Pact as China Prompts Closer Ties - The Wall Street Journal",
+      "description": "Pompeo, Esper to ink agreement with Indian officials, part of Beijing-focused diplomatic push in Asia",
+      "url": "https://www.wsj.com/articles/u-s-india-expected-to-sign-military-pact-as-china-prompts-closer-ties-11603623601",
+      "urlToImage": "https://images.wsj.net/im-249358/social",
+      "publishedAt": "2020-10-25T12:00:00Z",
+      "content": "The U.S. and India are expected to sign a key military agreement this week, bolstering cooperation in the Pacific and Indian oceans to counter an increasingly assertive China, Indian officials said.A… [+5349 chars]",
+      "relevanceScore": 0
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Gul Tuysuz, Martin Goillandeau and Zamira Rahim, CNN",
+      "title": "France condemns 'unacceptable' comments from Turkey's Erdogan and recalls ambassador - CNN",
+      "description": "France has condemned Turkish President Recep Tayyip Erdogan over comments he made about Emmanuel Macron's mental health and treatment of Muslims.",
+      "url": "https://www.cnn.com/2020/10/25/europe/erdogan-macron-france-muslims-intl/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/201020060721-emmanuel-macron-france-1016-super-tease.jpg",
+      "publishedAt": "2020-10-25T11:59:00Z",
+      "content": null,
+      "relevanceScore": 0
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Abdelmoneim ABU IDRIS ALI",
+      "title": "Sudanese split over normalising relations with Israel - Yahoo News",
+      "description": "Sudan's move to normalise relations with Israel has laid bare deep splits within society, with some bashing the deal as betrayal and others as a way to...",
+      "url": "https://news.yahoo.com/sudanese-split-over-normalising-relations-114533096.html",
+      "urlToImage": "https://s.yimg.com/uu/api/res/1.2/UNdA.AhmqAy1fqHObVzEZQ--~B/aD01MTI7dz03Njg7c209MTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/afp.com/1d783a9cdc7c1dc0a3f5270f35cb8146",
+      "publishedAt": "2020-10-25T11:45:00Z",
+      "content": "Sudan's move to normalise relations with Israel has laid bare deep splits within society, with some bashing the deal as betrayal and others as a way to rescue the devastated economy.\r\nThe move -- ann… [+4642 chars]",
+      "relevanceScore": 0
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Theguardian.comus-news"
+      },
+      "author": "Andrew Anthony, Jude Rogers",
+      "title": "'Deep down, he's a terrified little boy': Bob Woodward, John Bolton and others on Trump - The Guardian",
+      "description": "The authors of recent exposés, including Mary Trump and Anthony Scaramucci, on the president, his time in office – and what they expect to happen at the polls",
+      "url": "https://amp.theguardian.comus-news/2020/oct/25/deep-down-terrified-little-boy-bob-woodward-mary-trump-john-bolton-anthony-scaramucci-on-donald-trump",
+      "urlToImage": "https://i.guim.co.uk/img/media/3259baf0f73be8391288a7fa1b1b0ca701c99f60/501_672_5067_3040/master/5067.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdG8tZGVmYXVsdC5wbmc&enable=upscale&s=89e0c5b14ec933c31e3f3757c61c2780",
+      "publishedAt": "2020-10-25T11:00:00Z",
+      "content": "Bob Woodward: I cant think of a time Ive felt more anxiety about the presidency\r\nBob Woodward is associate editor of the Washington Post and the author of 20 books on American politics. In 50 years a… [+22360 chars]",
+      "relevanceScore": 0
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Forbes"
+      },
+      "author": "Zak Doffman",
+      "title": "Huawei Launches Stunning New Strike At Google To Beat Android - Forbes",
+      "description": "This could be Huawei's biggest \"fight\" with Google yet...",
+      "url": "https://www.forbes.com/sites/zakdoffman/2020/10/25/huawei-premium-smartphone-search-replaces-google-apple-iphone-and-samsung-galaxy-alternative/",
+      "urlToImage": "https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f92de66cd6864823559a0c5%2F0x0.jpg%3FcropX1%3D668%26cropX2%3D3757%26cropY1%3D485%26cropY2%3D2345",
+      "publishedAt": "2020-10-25T11:00:00Z",
+      "content": "Barcroft Media via Getty Images\r\nAnd so the Mate 40 has finally launched. Set against the backdrop of U.S. restrictions on the chipsets required to power Huawei devices, and with Google still missing… [+5869 chars]",
+      "relevanceScore": 0
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Live Science"
+      },
+      "author": "Tara Santora",
+      "title": "Do camels really have water in their humps? - Live Science",
+      "description": "Is there any truth to this myth?",
+      "url": "https://www.livescience.com/why-do-camels-have-humps.html",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/dpqFgUYP4tjkeASsD4Nrc5-1200-80.jpg",
+      "publishedAt": "2020-10-25T11:00:00Z",
+      "content": "To survive in the desert, camels store water in their humps, right? Not quite. Although camels\r\n do have tricks to make the most of water they find, their humps aren't one of them. So why do camels h… [+2626 chars]",
+      "relevanceScore": 0
+    },
+    {
+      "source": {
+        "id": "fox-news",
+        "name": "Fox News"
+      },
+      "author": "James Rogers",
+      "title": "NASA astronaut Kate Rubins has cast her ballot from space - Fox News",
+      "description": "NASA astronaut Kate Rubins, the only American not on the planet, has cast her vote from space.",
+      "url": "https://www.foxnews.com/science/nasa-astronaut-kate-rubins-cast-ballot-from-orbit",
+      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2020/10/NASAKateRubinsVote20.jpg",
+      "publishedAt": "2020-10-25T10:58:53Z",
+      "content": "NASA astronaut Kate Rubins, the only American not on the planet, has cast her vote from space.\r\nRubins voted from the International Space Station.\r\n“I voted today,” tweeted Rubins from the NASA Astro… [+2613 chars]",
+      "relevanceScore": 0
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Haaretz"
+      },
+      "author": "Haaretz",
+      "title": "Baron Cohen responds to Giuliani as Trump calls him a 'creep' - Haaretz.com",
+      "description": "***",
+      "url": "https://www.haaretz.com/us-news/baron-cohen-responds-to-giuliani-as-trump-calls-him-a-creep-1.9260537",
+      "urlToImage": "https://www.haaretz.com/polopoly_fs/1.9260548.1603623471!/image/598546403.JPG_gen/derivatives/headline_1200x630/598546403.JPG",
+      "publishedAt": "2020-10-25T10:48:32Z",
+      "content": "U.S. President Donald Trump says he thinks Sacha Baron Cohen, the comedian behind the “Borat” films, is “a creep.”\r\nBaron Cohen’s new movie, “Borat Subsequent Moviefilm,” shows Trump lawyer Rudy Giul… [+1697 chars]",
+      "relevanceScore": 0
+    }
+  ]
+}
+
+
+
