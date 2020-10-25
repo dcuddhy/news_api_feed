@@ -55,7 +55,11 @@ const ArticlePreviewDate = styled.h5`
   text-align: right;
   padding: 0.5rem;
 `;
-const ArticlePreviewDescription = styled.p``;
+const ArticlePreviewDescription = styled.p`
+@media (max-width: 884px) {
+  display: none;
+}
+`;
 
 
 const ReadMore = styled.div`
@@ -74,10 +78,6 @@ const Articles = (props) => {
   const articleData = props.data;
   console.log('articleData: ', articleData);
 
-  const readMoreClick = () => {
-    console.log('you clicked a button!');
-  }
-
   return (
     <LayoutGrid className='layout-grid'>
       {articleData && articleData.map((article, a) => (
@@ -88,7 +88,7 @@ const Articles = (props) => {
             <ArticlePreviewDate className='article-preview-date'>{moment(article.publishedAt).format('MMM. Do, YYYY')}</ArticlePreviewDate>
             <ArticlePreviewDescription className='article-preview-description'>{article.description}</ArticlePreviewDescription>
           </ArticlePreviewContent>
-          <ReadMore onClick={readMoreClick}>Read More</ReadMore>
+          <ReadMore onClick={()=> window.open(`${article.url}`, "_blank")}>Read More</ReadMore>
         </ArticlePreviewContainer>
       ))}
     </LayoutGrid>

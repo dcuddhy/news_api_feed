@@ -7,14 +7,11 @@ import data from './data/data.json';
 
 const AppContainer = styled.div`
   background: green;
-
-  // @media (max-width: 795px) {
-  //   display: flex;
-  //   flex-direction: column;
-  //   align-items: center;
-  //   background: blue !important;
-  // }
 `;
+
+// TODO - What's left!
+// Search for articles (in language 'en') by a search string (the homepage of the app is simply a search bar)
+// Search results are sortable by either of the following criterias - date, relevance, popularity or none
 
 function App() {
   const [fetchedData, setFetchedData] = useState(data);
