@@ -54,7 +54,7 @@ function App() {
     let sortedArticles = articles;
     switch (criteria) {
       case 'date':
-        // It looks like default sorting may already be by date, so this filter might underwhelming
+        // It looks like default sorting may already be by date, so this filter might be underwhelming
         sortedArticles = articles && articles.sort(function (a, b) {
           if (a.publishedAt && b.publishedAt){
             if (a.publishedAt > b.publishedAt) {
