@@ -1,8 +1,20 @@
 import React, {useEffect, useState} from 'react';
 import './App.css';
 import Articles from './components/Articles';
+import styled from 'styled-components';
 import Header from './components/Header';
 import data from './data/data.json';
+
+const AppContainer = styled.div`
+  background: green;
+
+  // @media (max-width: 795px) {
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  //   background: blue !important;
+  // }
+`;
 
 function App() {
   const [fetchedData, setFetchedData] = useState(data);
@@ -23,10 +35,12 @@ function App() {
   console.log('fetchedData: ', fetchedData);
 
   return (
-    <div className="App">
-      <Header />
+    <>
+    <Header />
+    <AppContainer className="app-container">
       <Articles data={fetchedData.articles} />
-    </div>
+    </AppContainer>
+    </>
   );
 }
 
