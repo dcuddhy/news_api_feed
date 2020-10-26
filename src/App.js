@@ -9,7 +9,6 @@ const apiKey = process.env.REACT_APP_API_KEY || '';
 
 // TODO There had ought to be ACs around relevance logic.  This is a guess.
 const relevanceFilter = (primary, secondary, tertiary, phrase) => {
-  // check title, description, content
   const lowerPrimary = primary ? primary.toLowerCase() : '';
   const lowerSecondary = secondary ? secondary.toLowerCase() : '';
   const lowerTertiary = tertiary ? tertiary.toLowerCase() : '';
@@ -28,23 +27,14 @@ function App() {
   const [fetchedData, setFetchedData] = useState([]);
   const apiEndpoint = `https://newsapi.org/v2/top-headlines?country=us&q=${query}&apiKey=${apiKey}`;
 
-  const dataFetch = () => {
+  // Get initial Data
+  useEffect(() => {
     fetch(apiEndpoint)
     .then(response => response.json())
     .then(data => setFetchedData(data.articles))
     .catch((error) => {
       console.error('FETCH ERROR: ', error);
     });
-  }
-
-  // Get initial Data
-  useEffect(() => {
-    dataFetch();
-  }, []);
-
-  // Update data upon query
-  useEffect(() => {
-    dataFetch();
   }, [query]);
 
   // TODO This switch really should not be inside the App component, but as is, 
