@@ -1,8 +1,9 @@
 {
-  "name": "diaco-react-starter",
+  "name": "news_api_feed",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "moment": "^2.29.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
