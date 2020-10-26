@@ -4,6 +4,9 @@
 dcuddhy@gmail.com <br />
 609-408-5891 <br />
 
+<img width="800px" src="https://user-images.githubusercontent.com/8904409/97134364-aaf58780-1712-11eb-8466-8da23b0e3ea3.png">
+
+<img width="800px" src="https://user-images.githubusercontent.com/8904409/97134355-a5983d00-1712-11eb-9d91-de9b57e55825.gif">
 
 This project assumes an `.env` including 
 ```
