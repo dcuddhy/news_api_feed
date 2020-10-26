@@ -55,9 +55,9 @@ const ArticlePreviewDate = styled.h5`
 `;
 
 const ArticlePreviewDescription = styled.p`
-@media (max-width: 884px) {
-  display: none;
-}
+  @media (max-width: 884px) {
+    display: none;
+  }
 `;
 
 const ReadMore = styled.div`
@@ -72,6 +72,8 @@ const ReadMore = styled.div`
   color: #ffffff;
 `;
 
+const fallbackImage = 'https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png';
+
 const Articles = (props) => {
   const articleData = props.data;
 
@@ -79,7 +81,7 @@ const Articles = (props) => {
     <LayoutGrid className='layout-grid'>
       {articleData && articleData.map((article, a) => (
         <ArticlePreviewContainer key={`article-preview-container-${a}`} className='article-preview-container'>
-          <ArticlePreviewImage src={`${article.urlToImage}`} className="article-preview-image" />
+          <ArticlePreviewImage src={`${article.urlToImage || fallbackImage}`} className="article-preview-image" />
           <ArticlePreviewContent className='article-preview-content'>
             <ArticlePreviewTitle className='article-title'>{article.title}</ArticlePreviewTitle>
             <ArticlePreviewDate className='article-preview-date'>{moment(article.publishedAt).format('MMM. Do, YYYY')}</ArticlePreviewDate>

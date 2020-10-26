@@ -8,6 +8,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body:before {
+  box-sizing: border-box;
+  display: block;
+  background: #62D9FB;
+  padding: 0.5rem;
+  width: 100vw;
+  content: "Drew Cuddhy - dcuddhy@gmail.com";
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
