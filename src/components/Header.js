@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import styled from 'styled-components';
+import { Dropdown } from 'react-bootstrap';
 
 const HeaderContainer = styled.div`
   margin-bottom: 2rem;
@@ -52,10 +53,21 @@ const Header = (props) => {
     submit();
   }
   
-  const dropdownOptions = ["date", "relevance", "none"];
+  const dropdownOptions = [
+    {
+      'name': 'Date',
+      'value': 'publishedAt',
+    }, 
+    {
+      'name': 'Relevancy',
+      'value': 'relevancy',
+    }, 
+    {
+      'name': 'Popularity',
+      'value': 'popularity',
+    } 
+  ];
 
-  // TODO This should probably not be called upon dropdown selection, but rather be attached
-  // to button click.  User flow feels clunky with this working independently
   const sorter = (e) => {
     props.sortBy(e.target.value);
   };
@@ -64,17 +76,35 @@ const Header = (props) => {
     <HeaderContainer className="article-preview-container">
       <HeaderContent>
         <HeaderQuery onKeyPress={enterSubmit} onChange={queryOnChange} value={value} />
-        <HeaderDropdown>
-            {/* TODO These elements should be styled components for consistency */}
+        {/* <HeaderDropdown>
             <select name="sort-dropdown" id="sort-dropdown" onChange={sorter}>
               <option key="option-blank" value="" > Sort Articles </option>
               {dropdownOptions.map(opt => 
-                <option key={`option-${opt}`} value={`${opt}`}> {opt} </ option>
+                <option key={`option-${opt.value}`} value={`${opt.value}`}> {opt.name} </ option>
               )}
             </select>
-        </HeaderDropdown>
+        </HeaderDropdown> */}
         <HeaderQuerySubmit onClick={submit}>Search</HeaderQuerySubmit>
       </HeaderContent>
+
+
+      <Dropdown name="sort-dropdown" id="sort-dropdown" onChange={sorter}>
+        <Dropdown.Toggle variant="secondary" id="dropdown-basic">
+          Dropdown Button
+        </Dropdown.Toggle>
+
+        <Dropdown.Menu>
+          <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+          <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+          <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+          <Dropdown name="sort-dropdown" id="sort-dropdown" onChange={sorter}>
+              <Dropdown.Item key="option-blank" value="" > Sort Articles </Dropdown.Item>
+              {dropdownOptions.map(opt => 
+                <Dropdown.Item key={`option-${opt.value}`} value={`${opt.value}`}> {opt.name} </ Dropdown.Item>
+              )}
+            </Dropdown>
+        </Dropdown.Menu>
+      </Dropdown>
     </HeaderContainer>
   );
 }
