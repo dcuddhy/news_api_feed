@@ -1,42 +1,14 @@
 import React, {useState} from 'react';
 import styled from 'styled-components';
-import { Dropdown } from 'react-bootstrap';
+import { Button, Dropdown, FormControl, InputGroup, Navbar } from 'react-bootstrap';
 
-const HeaderContainer = styled.div`
-  margin-bottom: 2rem;
-  background: #000000;
-  padding: 1rem;
-  color: #ffffff;
-`;
-
-const HeaderContent = styled.div`
-  margin: 0 auto;
-  width: 80%;
-  max-width: 1220px;
-`;
-
-const HeaderQuery = styled.input``;
-
-const HeaderDropdown = styled.div`
-  display: inline-block;
-  margin-left: 40px;
-`;
-
-const HeaderQuerySubmit = styled.div`
-  display: inline-block;
-  position: relative;
-  margin: 0 40px;
-  border-radius: 4px;
-  background: #E81D36;
-  cursor: pointer;
-  padding: 0.5rem;
-  width: 130px;
-  text-align: center;
-  color: #ffffff;
-`;
+ const ButtonContainer = styled.div`
+  margin: 0 0 0 40px;
+ `;
 
 const Header = (props) => {
   const [value, setValue] = useState('');
+  const [sortByValue, setSortByValue] = useState('');
 
   const queryOnChange = (e) => {
     setValue(e.target.value);
@@ -68,44 +40,39 @@ const Header = (props) => {
     } 
   ];
 
-  const sorter = (e) => {
-    props.sortBy(e.target.value);
+  const sorter = (eventKey) => {
+    setSortByValue(eventKey);
+    props.sortBy(eventKey);
   };
 
   return (
-    <HeaderContainer className="article-preview-container">
-      <HeaderContent>
-        <HeaderQuery onKeyPress={enterSubmit} onChange={queryOnChange} value={value} />
-        {/* <HeaderDropdown>
-            <select name="sort-dropdown" id="sort-dropdown" onChange={sorter}>
-              <option key="option-blank" value="" > Sort Articles </option>
+    <Navbar bg="dark" variant="dark" className="article-preview-container">
+      <InputGroup>
+        <FormControl
+          aria-describedby="basic-addon2"
+          aria-label="Search For News"
+          onChange={queryOnChange}
+          onKeyPress={enterSubmit}
+          placeholder="Search For News"
+          value={value}
+        />
+        <Dropdown name="sort-dropdown" id="sort-dropdown" onSelect={(eventKey) => sorter(eventKey)}>
+          <Dropdown.Toggle variant="secondary" id="dropdown-basic">
+            Sort Articles
+          </Dropdown.Toggle>
+          <Dropdown.Menu>
+            <Dropdown name="sort-dropdown" id="sort-dropdown" onChange={sorter}>
               {dropdownOptions.map(opt => 
-                <option key={`option-${opt.value}`} value={`${opt.value}`}> {opt.name} </ option>
-              )}
-            </select>
-        </HeaderDropdown> */}
-        <HeaderQuerySubmit onClick={submit}>Search</HeaderQuerySubmit>
-      </HeaderContent>
-
-
-      <Dropdown name="sort-dropdown" id="sort-dropdown" onChange={sorter}>
-        <Dropdown.Toggle variant="secondary" id="dropdown-basic">
-          Dropdown Button
-        </Dropdown.Toggle>
-
-        <Dropdown.Menu>
-          <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-          <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-          <Dropdown name="sort-dropdown" id="sort-dropdown" onChange={sorter}>
-              <Dropdown.Item key="option-blank" value="" > Sort Articles </Dropdown.Item>
-              {dropdownOptions.map(opt => 
-                <Dropdown.Item key={`option-${opt.value}`} value={`${opt.value}`}> {opt.name} </ Dropdown.Item>
+                <Dropdown.Item eventKey={`${opt.value}`} key={`option-${opt.value}`} value={`${opt.value}`} className={opt.value === sortByValue ? 'active' : ''}> {opt.name} </ Dropdown.Item>
               )}
             </Dropdown>
-        </Dropdown.Menu>
-      </Dropdown>
-    </HeaderContainer>
+          </Dropdown.Menu>
+        </Dropdown>
+        <ButtonContainer>
+          <Button variant="danger" onClick={submit}>Search</Button>
+        </ButtonContainer>
+      </InputGroup>
+    </Navbar>
   );
 }
 
